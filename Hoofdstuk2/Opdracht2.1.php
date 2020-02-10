@@ -22,7 +22,7 @@
         <li>Hoofdstuk 2</li>
         <ul>
             <li>
-                <a href="Hoofdstuk2/opdracht2.1.php">Opdracht 2.1</a>
+                <a href="Hoofdstuk2/Opdracht2.1.php">Opdracht 2.1</a>
             </li>
             <li>
                 <a href="Hoofdstuk2/opdracht2.2.php">Opdracht 2.2</a>
