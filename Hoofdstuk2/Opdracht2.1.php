@@ -28,6 +28,52 @@
             </li>
         </ul>
         </li>
+        <li>Hoofdstuk 3
+            <ul>
+                <li>
+                    <a href="Hoofdstuk3/">Opdracht 3.1</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk3/">Opdracht 3.2</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk3/">Opdracht 3.3</a>
+                </li>
+
+            </ul>
+        </li>
+        <li>Hoofdstuk 4
+            <ul>
+                <li>
+                    <a href="Hoofdstuk4/">Opdracht 4.1</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk4/">Opdracht 4.2</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk4/">Opdracht 4.3</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk4/">Opdracht 4.4</a>
+                </li>
+            </ul>
+        </li>
+        <li>Hoofdstuk 5
+            <ul>
+                <li>
+                    <a href="Hoofdstuk5/">Opdracht 5.1</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk5/">Opdracht 5.2</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk5/">Opdracht 5.3</a>
+                </li>
+                <li>
+                    <a href="Hoofdstuk5/">Opdracht 5.4</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
