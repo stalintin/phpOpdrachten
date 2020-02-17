@@ -17,11 +17,7 @@
     <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
 </header>
     <p><?php echo "Hello World!" ?></p>
-    <ul>
-        <li>
-            <a href="../index.php">Home</a>
-        </li>
-    </ul>
+<button><a href="../index.php">Home</a></button>
 </body>
 </html>
 
