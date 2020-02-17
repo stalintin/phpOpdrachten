@@ -39,6 +39,7 @@ echo ("<p> $text1  $text4 $text5  $text15 $text2$text10  $text12  $text7  $text8
 <?php
 echo ("<p>$text1 $text8 $text15 dat $text5 $text3 $text13$text10 $text12 $text7 $text14 $text9 $text12</p>")
 ?>
+
 <button><a href="../index.php">Home</a></button>
 
 
