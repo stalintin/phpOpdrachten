@@ -35,7 +35,7 @@
                         <a href="Hoofdstuk3/Opdracht3.1.php">Opdracht 3.1</a>
                     </li>
                     <li>
-                        <a href="Hoofdstuk3/">Opdracht 3.2</a>
+                        <a href="Hoofdstuk3/Opdracht3.2.php">Opdracht 3.2</a>
                     </li>
                     <li>
                         <a href="Hoofdstuk3/">Opdracht 3.3</a>
