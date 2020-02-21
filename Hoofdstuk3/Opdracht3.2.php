@@ -5,18 +5,112 @@
  * Time: Time
  * File: index.php
  */?>
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <head>
-    <meta charset="utf-8" />
-    <title><?php print "Pagina 1"; ?></title>
-    <link href="../CSS/stylesheet.css" type="text/css" rel="stylesheet">
+    <title></title>
+    <link href="../CSS/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 <header>
     <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
 </header>
+    <?php
+    $trafficLightColor = "Groen";
+    $ambulanceComing = false;
 
-<button><a href="../index.php">Home</a></button>
+    if ($trafficLightColor == "Rood")
+    {
+        $driveOn = false;
+    }
+    elseif($trafficLightColor == "Oranje")
+    {
+        $driveOn = false;
+    }
+    elseif($ambulanceComing == true)
+    {
+        $driveOn = false;
+    }
+
+    else
+    {
+        $driveOn = true;
+    }
+
+    if ($driveOn = false)
+    {
+        echo "<p id='stop'>U moet stoppen</p>";
+    }
+
+    else
+    {
+        echo "<p id='door'>U mag doorrijden</p>";
+    }
+
+    ?>
+    <br>
+    <?php
+    $countryName = "Nederland";
+    $currentAge = 17;
+
+
+    echo("<p>Je woont in ". $countryName . " en je bent " . $currentAge . " jaar oud.</p>");
+
+    if($countryName == "Nederland" && $currentAge >= 18)
+    {
+        echo("<p>Je mag hier sterke en zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "Nederland" && $currentAge < 18)
+    {
+        echo("<p>Hier mag je geen alcohol drinken.</p>");
+    }
+
+    if($countryName == "België" && $currentAge >= 16 && $currentAge <= 18)
+    {
+        echo("<p>Je mag hier zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "België" && $currentAge >= 18)
+    {
+        echo("<p>Je mag hier sterke en zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "België" && $currentAge < 16)
+    {
+        echo("<p>hier mag je geen alcohol drinken.</p>");
+    }
+
+    if($countryName == "Bulgarije" && $currentAge >= 18)
+    {
+        echo("<p>Je mag hier sterke en zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "Cyprus" && $currentAge < 17)
+    {
+        echo("<p>Hier mag je geen alcohol drinken.</p>");
+    }
+
+    if($countryName == "Cyprus" && $currentAge >= 17)
+    {
+        echo("<p>Je mag hier sterke en zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "Cyprus" && $currentAge < 17)
+    {
+        echo("<p>Hier mag je geen alcohol drinken.</p>");
+    }
+
+    if($countryName == "Zweden" && $currentAge >= 18 && $currentAge <= 19)
+    {
+        echo("<p>Je mag hier zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "Zweden" && $currentAge >= 20)
+    {
+        echo("<p>Hier mag je sterke en zwakke alcohol drinken.</p>");
+    }
+    else if($countryName == "Zweden" && $currentAge < 18)
+    {
+        echo("<p>Hier mag je geen alcohol drinken.</p>");
+    }
+
+
+    ?>
+
+</main>
 </body>
-</html>
