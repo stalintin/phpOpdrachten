@@ -44,4 +44,5 @@
 
 
 </main>
+<?php include "../Includes/Footer.php"?>
 </body>
