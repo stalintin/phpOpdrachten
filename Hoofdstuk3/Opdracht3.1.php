@@ -20,7 +20,9 @@
 
 </head>
 <body>
+<header>
 <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
+</header>
 <div class="box">
     <?php
     $elf = "<u>Elfstedentocht</u>";
