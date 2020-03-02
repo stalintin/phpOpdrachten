@@ -13,7 +13,7 @@
 
 <body>
 <header>
-    <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
+    <h1>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h1>
 </header>
     <?php
     $trafficLightColor = "Groen";
