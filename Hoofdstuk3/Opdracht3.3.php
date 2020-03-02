@@ -1,4 +1,5 @@
 <!doctype html>
+<html>
 <head>
     <title></title>
     <style>
@@ -15,3 +16,4 @@
 
 </footer>
 </body>
+</html>
