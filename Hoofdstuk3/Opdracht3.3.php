@@ -12,5 +12,6 @@
 </header>
 <footer>
 <?php include "../Includes/Footer.php"?>
+
 </footer>
 </body>

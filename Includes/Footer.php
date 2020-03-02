@@ -1,5 +1,5 @@
 <?php
-include("includes/variabelen.php");
+include("../Includes/Variables.php");
 
 // De footer via echo getoond aan de gebruiker
 echo("<div class='footer'>");
