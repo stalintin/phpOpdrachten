@@ -37,7 +37,7 @@
         $driveOn = true;
     }
 
-    if ($driveOn = false)
+    if ($driveOn == false)
     {
         echo "<p id='stop'>U moet stoppen</p>";
     }
