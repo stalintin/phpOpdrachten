@@ -37,6 +37,6 @@ echo "De datum en tijd in New York is nu : $vandaag";
 ?>
 <br>
 <br>
-<button><a href="index.php">Home</a></button>
+<button><a href="../index.php">Home</a></button>
 </body>
 </html>
