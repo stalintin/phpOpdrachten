@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8" />
     <title><?php print "Pagina 1"; ?></title>
-    <link href="CSS/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="../CSS/stylesheet.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <header>
