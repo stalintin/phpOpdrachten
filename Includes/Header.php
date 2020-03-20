@@ -1,6 +1,13 @@
-<?php
-echo("<header>");
-echo("<h1>Uitwerking van PHP-opdrachten</h1>");
-echo("</header>");
-
-?>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>
+    </title>
+    <meta name="description" content=" ">
+    <meta name="keywords" content=" ">
+    <meta charset="utf-8">
+    <link href="../CSS/stylesheet.css.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
+<div class="box">
