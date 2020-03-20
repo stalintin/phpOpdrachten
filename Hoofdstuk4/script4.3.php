@@ -18,11 +18,13 @@ while($y >= 0){
     $task2 .= $y.", ";
     $y--;
 }
+// ik laat hier zien dat ik met $y een counter maak die op 19 begint en dan eigenlijk in de while loop aftelt naar 0
 // Taak 3
 $task3 = "Lancering in: ";
 for($y=19;$y >= 0;$y--){
     $task3 .= $y.", ";
 }
+// hier doe ik hetzelfde als in taak 2 maar het staat in de for loop.
 // Taak 4
 $task4 = "";
 $x = 1;
@@ -30,6 +32,7 @@ while($x <= 6){
     $task4 .= "<h$x>Dit is de ". $x. "e iteratie<h$x>";
     $x++;
 }
+//ik maak hier een while loop voor iteraties en ik heb een counter die gaat vanaf 1 en laat ik optellen naar 6.
 // Taak 5
 $task5 = '';
 $t = "<table><tr>";
@@ -39,7 +42,8 @@ for($f=1; $f <= 10; $f++){
     $task5 = $t . $task5 . $r;
 }
 
-
+// ik heb hier een table en maak met variabelen table rows en collums aan en daat daar de forloop in waarmee ik aangeef
+//dat e iteraties in de tabel gezet worden.
 // Taak 6
 $task6= '';
 $year = date('Y');

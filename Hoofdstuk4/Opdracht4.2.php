@@ -19,9 +19,8 @@
 <?php
 $courseName = "Nederlands";
 $teacherName = "";
-/**
- ik maak hier 2 variabelen aan voor de switch case en ik zeg iedee keer dat als de switch
- */
+ //ik maak hier 2 variabelen aan voor de switch case en ik zeg iedee keer dat als de switcht dan krijg je de de volgende te zien in het rijtje
+
 switch ($courseName)
 {
     case    "PHP":
