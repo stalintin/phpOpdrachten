@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-include "../../includes/header.php"
+include "../includes/Header.php"
 ?>
 
 <?php
@@ -62,33 +62,33 @@ while($year >= 2003){
 
 // Taak 7
 $task7 = '';
-$years = date('Y');
+$year = date('Y');
 for($ages = 16; $ages > 0; $ages--) {
 
     switch ($ages) {
         case 0:
-            $task7 .= "<p>In {$years} ben ik $ages geboren en was ik een baby</p>";
+            $task7 .= "<p>In {$year} ben ik $ages geboren en was ik een baby</p>";
             break;
         case 2:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud en werd ik een peuter</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud en werd ik een peuter</p>";
             break;
         case 4:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud en werd ik een kleuter</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud en werd ik een kleuter</p>";
             break;
         case 8:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud en werd ik een tiener</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud en werd ik een tiener</p>";
             break;
         case 12:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud en werd ik een puber</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud en werd ik een puber</p>";
             break;
         case 18:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud en werd ik een adolescent</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud en werd ik een adolescent</p>";
             break;
         case 20:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud en werd ik een volwassen</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud en werd ik een volwassen</p>";
             break;
         default:
-            $task7 .= "<p>In {$years}? was ik $ages jaar oud</p>";
+            $task7 .= "<p>In {$year}? was ik $ages jaar oud</p>";
             break;
     }
     $year--;
@@ -101,5 +101,5 @@ for($ages = 16; $ages > 0; $ages--) {
 
 
 <?php
-include "../../includes/footer.php"
+include "../includes/Footer.php"
 ?>
