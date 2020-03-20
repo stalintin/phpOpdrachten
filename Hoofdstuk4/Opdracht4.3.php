@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-include "../includes/header.php";
+include "../includes/Header.php";
 ?>
 
 <?php
