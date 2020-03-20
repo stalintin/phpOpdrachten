@@ -9,7 +9,7 @@ $moment ='';
 if($uur >= 0 && $uur <= 5){
     $moment = 'Goedennacht';
 }
-elseif ($uur >= 5 && $uur <= 12){
+elseif ($uur >= 5 && $uur < 12){
     $moment = 'Goedenochtend';
 }
 elseif($uur >= 12 && $uur <= 17){
