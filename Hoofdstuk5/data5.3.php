@@ -30,7 +30,7 @@
 <div class="box">
 
 <?php
-include "../../Includes/Function.php"
+include "../Includes/Function.php"
 ?>
     <table>
         <tr>
