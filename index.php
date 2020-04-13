@@ -62,10 +62,10 @@
             <li>Hoofdstuk 5
                 <ul>
                     <li>
-                        <a href="Hoofdstuk5/">Opdracht 5.1</a>
+                        <a href="Hoofdstuk5/Opdracht5.1.php">Opdracht 5.1</a>
                     </li>
                     <li>
-                        <a href="Hoofdstuk5/">Opdracht 5.2</a>
+                        <a href="Hoofdstuk5/Opdracht5.2.php">Opdracht 5.2</a>
                     </li>
                     <li>
                         <a href="Hoofdstuk5/">Opdracht 5.3</a>
@@ -82,3 +82,7 @@
     </main>
     </body>
 </html>
+
+<?php
+include "Includes/Footer.php"
+?>
