@@ -19,13 +19,15 @@
         <meta name="keywords" content=" ">
         <meta charset="utf-8">
 
+        <style>
+            table, tr, th, td{
+                border: 1px solid black;
+            }
+        </style>
     </head>
+
 <body>
-    <style>
-        table, tr, th, td{
-            border: 1px solid black;
-        }
-    </style>
+
     <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
 <div class="box">
 

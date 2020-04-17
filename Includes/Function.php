@@ -24,7 +24,7 @@ function echoKans() {
  * Deze functie returned de 1 op .. kans
  */
 function getKans1Op() {
-    return 100000 / $_POST['infected'];
+        return 100000 / $_POST['infected'];
 }
 
 /*
