@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
  * User: valentin Böck
  * Date: 30-3-2020
@@ -18,6 +17,7 @@
         <meta name="description" content=" ">
         <meta name="keywords" content=" ">
         <meta charset="utf-8">
+        <link href="../CSS/stylesheet.css" type="text/css" rel="stylesheet">
 
         <style>
             table, tr, th, td{

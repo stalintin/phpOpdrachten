@@ -28,7 +28,7 @@ include "../Includes/Header.php"
         <input name="Question" type="radio" value="Ja">Ja</input>
         <input name="Question" type="radio" value="Nee">Nee</input><br>
         <label>Aantal mensen besmet in je gemeente?*</label><input name="infected" type="number"><br>
-        <input type="submit" name="verzenden" value="verzenden"><br>
+        <input type="submit" name="submit" value="submit"><br>
         <label>* Zie aantallen per gemeente per 100.000 bewoners <a href="https://www.rivm.nl/coronavirus-kaart-van-nederland-per-gemeente">site RIVM</a></label>
 
     </form>
