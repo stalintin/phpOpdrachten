@@ -44,7 +44,7 @@ $test = $row['id'];
 try
 {
     $pdo->exec("INSERT INTO joke VALUES('Top Text',' Bottom Text','2020/5/17')");
-    $pdo->exec("DELETE FROM joke WHERE id > 5");
+    $pdo->exec("DELETE FROM joke WHERE id > 6");
 }
 catch (PDOException $e)
 {
@@ -52,6 +52,46 @@ catch (PDOException $e)
     die();
 }
 ?>
+<?php
+// Uitvoeren van een SQl query
+try
+{
+    // Query schrijven
+    $sql = 'SELECT * FROM joke';
+    // Query uitvoeren
+    $result = $pdo->query($sql);
+}
+catch (PDOException $e)
+{
+    echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
+    exit();
+}
+$aJokes = array();
+// Door de results heen loopen via een while
+while ($row = $result->fetch(PDO::FETCH_ASSOC))
+{
+    // Result wegschrijven in de $aJokes array
+    $aJokes[] = $row;
+    $counter = $row['id'];
+}
+
+?>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Joketext</th>
+        <th>Jokeclou</th>
+        <th>Jokedate</th>
+    </tr>
+    <?php
+    for($i=0; $i<$counter; $i++) {
+        echo "<tr><td>" . $aJokes[$i]['id'] . "</td><td>" . $aJokes[$i]['joketext'] . "</td><td>" .$aJokes[$i]['jokeclou'] . "</td><td>" . $aJokes[$i]['jokedate'] . "</td></tr>";
+    }
+    ?>
+
+</table>
+
 
 <?php
     include "../Includes/Footer.php"
