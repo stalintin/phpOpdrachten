@@ -13,15 +13,24 @@ include "../Includes/Header.php"
 
 <form action="CheckLogin.php" method="post">
     <label>Username: </label>
-    <input type="text" name="username"><br>
+    <label>
+        <input type="text" name="username">
+    </label><br>
     <label>Password: </label>
-    <input type="password" name="password"><br>
+    <label>
+        <input type="password" name="password">
+    </label><br>
     <input type="submit" value="Submit">
 </form>
 
+
 <?php
-echo $message;
+if (isset($faultyMsg))
+{
+    echo $faultyMsg;
+}
 ?>
+
 
 <?php
 include "../Includes/Footer.php"

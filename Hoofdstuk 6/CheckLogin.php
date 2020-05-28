@@ -8,6 +8,7 @@
 ?>
 
 <?php
+ session_start();
 $authUsers = Array(
     "Abu" => "bekend",
     "Nordin" => "onbekend",
@@ -16,19 +17,18 @@ $authUsers = Array(
     "V-Böck" => "Bot3000",
     "Bruhh" => "Bruhmoment"
 );
-?>
 
-<?php
+
+$faultyMsg = "";
 foreach($authUsers as $user => $password) {
-
-    if ($_POST['username'] == $user && $_POST['password'] == $password) {
-        session_start();
-        $_SESSION['username'] = $_POST['username'];
-        header('location: welkom.php');
-    } else{
-        $message = "Ongeldige username/wachtwoord, probeer het nog eens.";
-    }
+if ($_POST['username'] == $user && $_POST['password'] == $password) {
+$_SESSION['username'] = $_POST['username'];
+header('location: welcome.php');
 }
-include "Hoofdstuk6.1.php";
+}
+
+$faultyMsg = "faulty username or password try again";
+
+header('location: Hoofdstuk6.1.php');
 
 ?>

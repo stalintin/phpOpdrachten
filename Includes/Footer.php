@@ -20,6 +20,21 @@ elseif ($uur >= 17 && $uur <= 0){
 }
 echo $moment . ' bezoeker, &copy; Valentin Böck ' . $jaar;
 ?>
+
+<?php
+
+print_r($_SESSION);
+if (isset($_SESSION['username'])) {
+    $bezoeker = $_SESSION['username']. "&nbsp;<a
+href='../Hoofdstuk 6/LogOut.php'>Logout</a>";
+}
+else {
+    $bezoeker = "onbekende bezoeker". "&nbsp;<a
+href='../Hoofdstuk 6/Hoofdstuk6.1.php'>Login</a>";
+}
+echo  $bezoeker;
+
+?>
 </div>
 </body>
 </html>
