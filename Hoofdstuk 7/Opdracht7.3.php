@@ -24,7 +24,7 @@ if (isset($_GET['inputText']) == false){
     $query = "SELECT * FROM joke";
 }
 else{
-    $query = "SELECT * FROM joke WHERE joketext". "'%" . $_POST['inputText'] . "%'";
+    $query = "SELECT * FROM joke WHERE joketext". "'%" . $_GET['inputText'] . "%'";
 }
 $jokes = executeQuery($query);
 
@@ -51,13 +51,13 @@ while ($row = $jokes->fetch(PDO::FETCH_ASSOC)) {
         <tr>
             <th>Jokeid</th>
             <th>Joketext</th>
-            <th>Jokecleu</th>
+            <th>Jokeclou</th>
             <th>Jokedate</th>
         </tr>
         <?php
         for($i=0; $i<$counter; $i++) {
-
-        };
+            echo "<tr><td>" . $aJokes[$i]['id'] . "</td><td>" . $aJokes[$i]['joketext'] . "</td><td>" .$aJokes[$i]['jokeclou'] . "</td><td>" . $aJokes[$i]['jokedate'] . "</td></tr>";
+        }
         ?>
 
     </table>

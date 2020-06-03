@@ -24,33 +24,6 @@ echo $e->getMessage();
 die();
 }
 
-$sql = 'SELECT * FROM joke';
-$result = $pdo->query($sql);
-
-
-
-
-while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
-// omdat row een associatieve array is kan ik de waardes als associaties
-// uit de rij halen, dus:
-echo "<br>" . $row['id'] . $row['joketext'] . $row['jokeclou'] . $row['jokedate'] . "<br>";
-$test = $row['id'];
-}
-?>
-
-<?php
-//Query uitvoeren zonder een resultaat
-
-try
-{
-    $pdo->exec("INSERT INTO joke VALUES('Top Text',' Bottom Text','2020/5/17')");
-    $pdo->exec("DELETE FROM joke WHERE id > 6");
-}
-catch (PDOException $e)
-{
-    echo $e->getMessage();
-    die();
-}
 ?>
 <?php
 // Uitvoeren van een SQl query

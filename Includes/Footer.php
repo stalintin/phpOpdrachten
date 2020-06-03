@@ -23,7 +23,6 @@ echo $moment . ' bezoeker, &copy; Valentin Böck ' . $jaar;
 
 <?php
 
-print_r($_SESSION);
 if (isset($_SESSION['username'])) {
     $bezoeker = $_SESSION['username']. "&nbsp;<a
 href='../Hoofdstuk 6/LogOut.php'>Logout</a>";
